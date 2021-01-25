@@ -3,6 +3,23 @@ import numpy as np
 
 
 class LTV(object):
+    """
+    LTV = [1] + [2] + [3] + [4] + [5]
+
+    [1] = DEV_PROCEEDS * Conversation from trial
+    [2] = [1] * 1th purchase to 2nd = DEV_PROCEEDS * Conversation from trial * 1th purchase to 2nd
+    ...
+    [5] = [4] * 4th to 5th = DEV_PROCEEDS * Conversation from trial * ... * 4th to 5th
+
+    k1 := Conversation from trial
+    k2 := 1th purchase to 2nd
+    ...
+    k5 := 4th purchase to 3rd
+
+    LTV = DEV_PROCEEDS * (k1 + k1*k2 + ... + k1*k2*k3*k4*k5)
+    kn - measured as a percentage
+    """
+
     def __init__(
         self,
         df: pd.DataFrame,
