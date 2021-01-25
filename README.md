@@ -4,12 +4,12 @@ This repository contains code for solving the second task on INT20H
 ## How to run a project ?
 
 ### 1️⃣ method
-1. Open your GitBush console and put following command
+1. Open your GitBush console and put following command:
 ```bash
 git clone https://github.com/welcome-pack-only/ltv-analytic-INT20H.git
 ```
 2. Open your console in root project directory
-3. Execute following command
+3. Execute following command:
 ```bash
 pip install -r requirements
 ```
@@ -27,11 +27,11 @@ LTV: 9.3400127
 ```
 
 ### 2️⃣ method
-1. Open your console and execute following command for building our application
+1. Open your console and execute following command for building our application:
 ```bash
 docker build -t ltv-analytic-int20h .
 ```
-2. Next, execute following command to run computing LTV
+2. Next, execute following command to run computing LTV:
 ```bash
 docker run --rm ltv-analytic-int20h
 ```
