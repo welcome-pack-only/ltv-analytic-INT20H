@@ -1,0 +1,26 @@
+# Scripts
+.travis
+Makefile
+env.sh
+
+# Configuration
+.travis.yml
+Dockerfile
+.gitignore
+
+# Documentation
+README.md
+LICENSE
+
+# Linter
+.flake8
+.pre-commit-config.yaml
+pyproject.toml
+
+# venv
+venv
+
+# cache
+__pycache__
+.ipynb_checkpoints
+.vscode

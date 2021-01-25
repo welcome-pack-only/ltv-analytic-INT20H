@@ -1,0 +1,8 @@
+path_to_data_folder: data
+data_filename: data_analytics.csv
+
+subscription_price: 9.99
+commission_percentage: 0.3
+subscriber_id_column: Subscriber ID
+event_dt_column: Event Date 
+subscription_offer_type_column: Subscription Offer Type

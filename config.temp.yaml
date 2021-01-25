@@ -1,0 +1,8 @@
+path_to_data_folder: <path to your data>
+data_filename: <name of file with data>
+
+subscription_price: <subscription price>
+commission_percentage: <Apple commission percentage>
+subscriber_id_column: <name of column with subscriber id>
+event_dt_column: <name of column with event date>
+subscription_offer_type_column: <name of column with subscription offer type>
